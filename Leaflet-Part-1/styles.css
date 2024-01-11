@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  height: 100vh;
+}
+
+.info.legend {
+  background: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.info.legend .legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px; /* Adjust as needed to separate the legend items */
+}
+
+.info.legend i {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.info.legend span {
+  display: inline-block;
+  /* Add additional styles for positioning or styling the depth bin value */
+}
